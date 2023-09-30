@@ -32,7 +32,7 @@ function App() {
       <div className="py-10 text-center">
         <h1 className="text-2xl text-orange-600 font-bold">Your Grades</h1>
       </div>
-      <div className="flex md:flex-row flex-col justify-center items-center gap-10 p-10">
+      <div className="flex md:flex-row flex-col justify-center md:items-start items-center gap-10 p-10">
         <form
           onSubmit={handleSubmit}
           className="md:place-self-start w-96 flex flex-col gap-2 p-10 bg-orange-400 text-orange-900 rounded-md"

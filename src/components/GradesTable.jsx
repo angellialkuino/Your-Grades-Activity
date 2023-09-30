@@ -64,10 +64,10 @@ export default function GradesTable({ grades, search }) {
                   <td className="border border-gray-200 px-5 py-4">
                     {grade.name}
                   </td>
-                  <td className="border border-gray-200 px-5 py-4">
+                  <td className="border border-gray-200 px-5 py-4 text-center">
                     {grade.units}
                   </td>
-                  <td className="border border-gray-200 px-5 py-4">
+                  <td className="border border-gray-200 px-5 py-4 text-center">
                     {grade.grade}
                   </td>
                 </tr>
@@ -79,7 +79,7 @@ export default function GradesTable({ grades, search }) {
               >
                 Total QP1:
               </th>
-              <th className="border border-gray-200 px-5 py-4">
+              <th className="border border-gray-200 px-5 py-4 text-center">
                 {computeQPI(grades)}
               </th>
             </tr>

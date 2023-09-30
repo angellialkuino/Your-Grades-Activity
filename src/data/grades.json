@@ -1,0 +1,6 @@
+[
+    {"number": "CS 5123", "name": "course1", "units": 3, "grade": "A"},
+    {"number": "DS 0345", "name": "course2", "units": 5, "grade": "B"},
+    {"number": "IT 7135", "name": "course3", "units": 1, "grade": "C+"},
+    {"number": "IS 9456", "name": "course4", "units": 2, "grade": "A"}
+]

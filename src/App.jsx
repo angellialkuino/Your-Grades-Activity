@@ -35,7 +35,7 @@ function App() {
       <div className="flex md:flex-row flex-col justify-center md:items-start items-center gap-10 p-10">
         <form
           onSubmit={handleSubmit}
-          className="md:place-self-start w-96 flex flex-col gap-2 p-10 bg-orange-400 text-orange-900 rounded-md"
+          className="md:place-self-start md:w-auto w-96 flex flex-col gap-2 p-10 bg-orange-400 text-orange-900 rounded-md"
         >
           <TextInput
             label="Course Number:"
